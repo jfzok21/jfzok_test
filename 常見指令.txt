@@ -49,3 +49,7 @@
     git remote remove <name>
 修改遠端儲存庫URL
     git remote set-url <name> <new_url>
+使用以下指令確認連結的 URL
+    git remote -v
+測試是否可以正確連結到遠端
+    git fetch origin
