@@ -1,0 +1,41 @@
+1. 常見子指令功能快速概覽
+
+開始一個專案（工作區域相關指令）
+	•	git clone：從遠端儲存庫複製一個專案到本地。
+	•	git init：初始化一個新的 Git 儲存庫或重新初始化現有儲存庫。
+
+進行變更（工作變更相關指令）
+	•	git add：將檔案加入暫存區，準備提交。
+	•	git mv：移動或重命名檔案。
+	•	git restore：還原檔案到特定版本。
+	•	git rm：從工作區和 Git 中刪除檔案。
+
+檢查歷史與狀態（檢查指令）
+	•	git bisect：用二分法找出導致問題的提交。
+	•	git diff：比較兩個提交間的差異。
+	•	git grep：搜尋提交中符合特定模式的行。
+	•	git log：查看提交歷史。
+	•	git show：顯示特定提交或物件的內容。
+	•	git status：顯示當前工作目錄的狀態。
+
+管理分支和提交歷史
+	•	git branch：列出、建立或刪除分支。
+	•	git commit：提交變更到版本庫。
+	•	git merge：合併多條開發分支。
+	•	git rebase：將提交移動到另一個基礎提交點上。
+	•	git reset：將當前分支回退到指定的提交點。
+	•	git switch：切換到其他分支。
+	•	git tag：建立、列出或刪除標籤。
+
+與他人協作（遠端操作相關指令）
+	•	git fetch：從遠端下載更新，但不合併到本地。
+	•	git pull：下載並合併遠端儲存庫的更新到本地。
+	•	git push：將本地變更推送到遠端儲存庫。
+
+1.	從建立本地專案開始：
+    •	使用 git init 或 git clone 開始專案。
+    •	操作檔案後，嘗試 git add 和 git commit。
+2.	學會分支管理：
+    •	使用 git branch 建立新分支，並用 git switch 或 git checkout 切換。
+3.	與遠端協作：
+    •	使用 git push 和 git pull 練習同步本地和遠端儲存庫。
