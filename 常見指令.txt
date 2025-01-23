@@ -39,3 +39,13 @@
     •	使用 git branch 建立新分支，並用 git switch 或 git checkout 切換。
 3.	與遠端協作：
     •	使用 git push 和 git pull 練習同步本地和遠端儲存庫。
+
+將當前分支名稱改為main git branch -M main
+上傳至儲存庫 git push -u origin main
+連結至遠端資料庫
+    git remote add <name> <url>
+    git remote add origin 連結.git
+移除遠端儲存庫
+    git remote remove <name>
+修改遠端儲存庫URL
+    git remote set-url <name> <new_url>
